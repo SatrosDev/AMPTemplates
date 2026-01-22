@@ -1,0 +1,54 @@
+[
+    {
+        "DisplayName": "System Folder",
+        "Category": "",
+        "Description": "System folder location",
+        "Keywords": "",
+        "FieldName": "",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "System",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Config File",
+        "Category": "",
+        "Description": "Config File Name",
+        "Keywords": "",
+        "FieldName": "ServerConfigFile",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerConfigFile",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Rune.ini",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map Name",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "MapName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MapName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "DM-Hildir.run",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Mode",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "GameMode",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameMode",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "RuneI.RuneMultiPlayer",
+        "EnumValues": {}
+    }
+]
