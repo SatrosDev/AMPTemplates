@@ -15,8 +15,10 @@ App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.RapidStartup=true
 App.RootDir=./rune/
+App.WorkingDir=System
 App.UpdateSource=None
 App.WorkingDir=
+App.EnvironmentVariables={"SteamAppId":"210950"}
 Console.AppReadyRegex=^Game engine initialized$
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.UserChatRegex=^ChatLog: (?<username>.+?) (SAY): (?<message>.+)$
@@ -34,3 +36,5 @@ Meta.EndpointURIFormat=
 Meta.OS=2
 Meta.URL=https://playrune.com
 Meta.AppConfigId=b180d41a-b1d5-42df-b32a-8de44266a910
+Meta.DisplayImageSource=steam:210950
+
