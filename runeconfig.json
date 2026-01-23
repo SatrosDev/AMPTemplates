@@ -50,5 +50,21 @@
         "IncludeInCommandLine": false,
         "DefaultValue": "RuneI.RuneMultiPlayer",
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Mutators",
+        "Category": "Rune:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Comma-separated list of mutators to enable on the server",
+        "Keywords": "mutators",
+        "FieldName": "mutator",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "mutator",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "Placeholder": "RuneI.MutatorNoRunes",
+        "EnumValues": {}
     }
 ]

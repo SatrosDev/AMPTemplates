@@ -5,13 +5,13 @@ App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./runeserver/
 App.RootDir=./runeserver/System
 App.WorkingDir=
-App.CommandLineArgs=server {{MapName}}?game={{GameMode}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} {{$FormattedArgs}}
+App.CommandLineArgs=server {{MapName}}?game={{GameMode}}?mutator={{Mutators}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} multihome={{$ApplicationIPBinding}} {{$FormattedArgs}}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Rune
 App.ExecutableLinux=ucc-rune
 App.ExecutableWin=
-App.ExitMethod=SIGINT
+App.ExitMethod=CtrlC
 App.ExitString=stop
 App.HasReadableConsole=true
 App.HasWritableConsole=true
