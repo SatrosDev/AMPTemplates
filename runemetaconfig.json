@@ -1,6 +1,6 @@
 [
     {
-        "ConfigFile": "System/runeserver.ini",
+        "ConfigFile": "runeserver.ini",
         "AutoMap": true,
         "ConfigType": "ini"
     }

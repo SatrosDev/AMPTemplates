@@ -9,7 +9,7 @@ App.CommandLineArgs=server {{MapName}}?game={{GameMode}} ini={{ServerConfigFile}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Rune
-App.ExecutableLinux=System/ucc-bin
+App.ExecutableLinux=ucc-bin
 App.ExecutableWin=
 App.ExitMethod=SIGINT
 App.ExitString=stop
