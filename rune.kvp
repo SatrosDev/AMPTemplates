@@ -3,6 +3,8 @@ App.Ports=@IncludeJson[runeports.json]
 App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./runeserver/
+App.RootDir=./runeserver/System
+App.WorkingDir=./runeserver/System
 App.CommandLineArgs=server {{MapName}}?game={{GameMode}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} {{$FormattedArgs}}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat=-{0} "{1}"
@@ -14,8 +16,6 @@ App.ExitString=stop
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.RapidStartup=true
-App.RootDir=./runeserver/
-App.WorkingDir=System
 App.UpdateSource=None
 App.EnvironmentVariables={"SteamAppId":"210950"}
 Console.AppReadyRegex=^Game engine initialized$
