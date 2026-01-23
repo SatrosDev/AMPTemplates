@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "System Folder",
-        "Category": "",
+        "Category": "Rune:stadia_controller",
         "Description": "System folder location",
         "Keywords": "",
         "FieldName": "",
@@ -14,7 +14,7 @@
     },
     {
         "DisplayName": "Server Config File",
-        "Category": "",
+        "Category": "Rune:stadia_controller",
         "Description": "Config File Name",
         "Keywords": "",
         "FieldName": "ServerConfigFile",
@@ -27,7 +27,7 @@
     },
     {
         "DisplayName": "Map Name",
-        "Category": "",
+        "Category": "Rune:stadia_controller",
         "Description": "",
         "Keywords": "",
         "FieldName": "MapName",
@@ -40,7 +40,7 @@
     },
     {
         "DisplayName": "Game Mode",
-        "Category": "",
+        "Category": "Rune:stadia_controller",
         "Description": "",
         "Keywords": "",
         "FieldName": "GameMode",

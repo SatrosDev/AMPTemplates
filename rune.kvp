@@ -7,7 +7,7 @@ App.CommandLineArgs=server {{MapName}}?game={{GameMode}} ini={{ServerConfigFile}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Rune
-App.ExecutableLinux=ucc-bin
+App.ExecutableLinux=System/ucc-bin
 App.ExecutableWin=
 App.ExitMethod=SIGINT
 App.ExitString=stop
@@ -15,7 +15,7 @@ App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.RapidStartup=true
 App.RootDir=./runeserver/
-App.WorkingDir=./runeserver/System
+App.WorkingDir=System
 App.UpdateSource=None
 App.EnvironmentVariables={"SteamAppId":"210950"}
 Console.AppReadyRegex=^Game engine initialized$
