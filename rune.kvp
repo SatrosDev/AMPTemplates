@@ -9,7 +9,7 @@ App.CommandLineArgs=server {{MapName}}?{{$FormattedArgs}} ini={{ServerConfigFile
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
 App.DisplayName=Rune
-App.ExecutableLinux=ucc-rune
+App.ExecutableLinux=ucc-bin
 App.ExecutableWin=
 App.ExitMethod=CtrlC
 App.ExitString=stop
