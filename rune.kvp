@@ -4,7 +4,7 @@ App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./runeserver/
 App.RootDir=./runeserver/System
-App.WorkingDir=./runeserver/System
+App.WorkingDir=
 App.CommandLineArgs=server {{MapName}}?game={{GameMode}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} {{$FormattedArgs}}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat=-{0} "{1}"
