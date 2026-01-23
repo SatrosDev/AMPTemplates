@@ -1,6 +1,6 @@
 App.AdminMethod=STDIO
-App.ApplicationPort1=7777
-App.ApplicationPort2=7778
+App.Ports=@IncludeJson[runeports.json]
+App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./runeserver/
 App.CommandLineArgs=server {{MapName}}?game={{GameMode}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} {{$FormattedArgs}}
