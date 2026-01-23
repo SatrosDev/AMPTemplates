@@ -4,12 +4,12 @@ App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./runeserver/
 App.RootDir=./runeserver/System
-App.WorkingDir=/AMP/runeserver/System
+App.WorkingDir=
 App.CommandLineArgs=server {{MapName}}?{{$FormattedArgs}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} multihome={{$ApplicationIPBinding}} {{CustomParameters}}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
 App.DisplayName=Rune
-App.ExecutableLinux=ucc-bin
+App.ExecutableLinux=ucc-rune
 App.ExecutableWin=
 App.ExitMethod=OS_CLOSE
 App.ExitString=stop
@@ -17,12 +17,14 @@ App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.RapidStartup=true
 App.UpdateSource=None
+App.MaxUsers=32
+App.MonitorChildProcessName=^.+\/ucc-bin.+port={{$GamePort}}.+$
 App.EnvironmentVariables={"SteamAppId":"210950"}
 Console.AppReadyRegex=^Game engine initialized$
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.UserChatRegex=^ChatLog: (?<username>.+?) (SAY): (?<message>.+)$
 Console.UserJoinRegex=^Join succeeded: (?<username>.+?)$
-Console.UserLeaveRegex=^(?<username>.+?) left the server.$
+Console.UserLeaveRegex=^(?<username>.+?) left the server.+$
 Meta.Author=Satros
 Meta.ConfigManifest=runeconfig.json
 Meta.MetaConfigManifest=runemetaconfig.json
