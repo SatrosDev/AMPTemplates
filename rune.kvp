@@ -7,7 +7,7 @@ App.RootDir=./runeserver/System
 App.WorkingDir=
 App.CommandLineArgs=server {{MapName}}?{{$FormattedArgs}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} multihome={{$ApplicationIPBinding}} {{CustomParameters}}
 App.CommandLineParameterDelimiter=?
-App.CommandLineParameterFormat=-{0}={1}
+App.CommandLineParameterFormat={0}={1}
 App.DisplayName=Rune
 App.ExecutableLinux=ucc-rune
 App.ExecutableWin=
