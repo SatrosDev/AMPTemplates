@@ -3,7 +3,7 @@ App.Ports=@IncludeJson[runeports.json]
 App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.RootDir=./runeserver/
-App.BaseDirectory=./runeserver/System/
+App.BaseDirectory=./runeserver/
 App.WorkingDir=System
 App.CommandLineArgs=server {{MapName}}?{{$FormattedArgs}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} multihome={{$ApplicationIPBinding}} {{CustomParameters}}
 App.CommandLineParameterDelimiter=?
