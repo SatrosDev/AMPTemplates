@@ -11,7 +11,7 @@
         "Port": 27016,
         "Ref": "SteamPort",
         "Name": "Steam Port",
-        "Description": "Port for extended server info"
+        "Description": "Port for extended steam server info"
     },
     {
         "Protocol": "UDP",
