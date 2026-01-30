@@ -31,11 +31,11 @@ App.RootDir=./wreckfest/
 App.BaseDirectory=./wreckfest/361580/
 App.SteamWorkshopDownloadLocation={{$FullBaseDir}}mods
 App.ExecutableWin=361580\Wreckfest_x64.exe
-App.ExecutableLinux=./wreckfest-linux.sh
+App.ExecutableLinux=wreckfest-launcher.sh
 App.WorkingDir=361580
 App.LinuxCommandLineArgs=/usr/bin/xvfb-run -a wine "./Wreckfest_x64.exe"
 App.WindowsCommandLineArgs=
-App.CommandLineArgs={{$PlatformArgs}} -s server_config=server_config.cfg --save-dir={{$FullBaseDir}}saved -server_set game_port={{$GamePort}} steam_port={{$SteamPort}} query_port={{$QueryPort}} {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} -s server_config=server_config.cfg --save-dir={{$FullBaseDir}}saved -server_set game_port={{$GamePort}} steam_port=27015 query_port={{$QueryPort}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"228380","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}

@@ -14,6 +14,21 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Steam Port Initial",
+        "Category": "Wreckfest:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "steam_port_initial",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "Hidden": true,
+        "ParamFieldName": "steam_port",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "27015",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Steam Port",
         "Category": "Wreckfest:stadia_controller",
         "Subcategory": "Server:dns:1",
@@ -23,7 +38,7 @@
         "InputType": "number",
         "IsFlagArgument": false,
         "Hidden": true,
-        "ParamFieldName": "steam_port",
+        "ParamFieldName": "steam_port_real",
         "IncludeInCommandLine": false,
         "EnumValues": {}
     },
