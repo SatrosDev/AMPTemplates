@@ -4,7 +4,7 @@ App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.RootDir=./gameserver/
 App.BaseDirectory=./gameserver/
-App.WorkingDir=System
+App.WorkingDir=
 App.CommandLineArgs={{GameCommandLine}}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
