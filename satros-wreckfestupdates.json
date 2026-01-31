@@ -60,4 +60,12 @@
         "OverwriteExistingFiles": true,
         "SkipOnFailure": false
     },
+    {
+        "UpdateStageName": "Wreckfest Launcher Permissions",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"chmod +x satros-wreckfest-launcher.sh\"",
+        "SkipOnFailure": false
+    }
 ]
