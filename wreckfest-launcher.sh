@@ -34,7 +34,7 @@ trap cleanup INT TERM EXIT
 # export XDG_RUNTIME_DIR=/tmp
 
 PORT="27016"
-INTERVAL=30 # Check every 30 seconds
+INTERVAL=32 # Check every 30 seconds
 
 # Clear any wreckfest stuff?
 
@@ -50,8 +50,8 @@ do
       echo "Killing process group -$JOB_PID with SIGTERM..."
       #kill -9 -$JOB_PID #this works to close the jobs
       kill -TERM -$JOB_PID #this also works
+      #set job_pid to none?
       wait
-      sleep 10
     else
       echo "Variable 'JOB_PID' is unset"
     fi
