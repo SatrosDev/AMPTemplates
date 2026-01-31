@@ -49,5 +49,15 @@
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c \"rm -rf \\\"{{$FullRootDir}}.wine\\\" >/dev/null 2>&1; WINEPREFIX=\\\"{{$FullRootDir}}.wine\\\" WINEARCH=win64 WINEDEBUG=-all XDG_RUNTIME_DIR=/tmp /usr/bin/wineboot --init\"",
         "SkipOnFailure": false
-    }
+    },
+    {
+        "UpdateStageName": "Wreckfest Launcher Fix Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/SatrosDev/AMPTemplates/refs/heads/main/wreckfest-launcher.sh",
+        "UpdateSourceArgs": "wreckfest-launcher.sh",
+        "UpdateSourceTarget": "{{$FullInstanceDir}}",
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
+    },
 ]
