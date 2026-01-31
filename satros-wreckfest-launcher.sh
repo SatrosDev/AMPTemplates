@@ -23,7 +23,7 @@ trap cleanup INT TERM EXIT
 
 
 PORT="27016"
-INTERVAL = 30 # Check port every 30 seconds
+INTERVAL=30 # Check port every 30 seconds
 
 while :
 do
