@@ -55,7 +55,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/SatrosDev/AMPTemplates/refs/heads/main/satros-wreckfest-launcher.sh",
-        "UpdateSourceArgs": "wreckfest-launcher.sh",
+        "UpdateSourceArgs": "satros-wreckfest-launcher.sh",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": true,
         "SkipOnFailure": false
