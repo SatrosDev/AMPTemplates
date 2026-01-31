@@ -33,6 +33,6 @@ Meta.DisplayName={{GameDisplayName}}
 Meta.EndpointURIFormat=
 Meta.OS=2
 Meta.URL=https://github.com/SatrosDev/AMPTemplates
-Meta.AppConfigId=b180d41a-b1d5-42df-b32a-8de44266a910
+Meta.AppConfigId=4238e16e-15b5-4206-b218-95db4eaa87d2
 Meta.DisplayImageSource=steam:{{GameSteamID}}
 
