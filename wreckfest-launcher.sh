@@ -34,7 +34,7 @@ trap cleanup INT TERM EXIT
 # export XDG_RUNTIME_DIR=/tmp
 
 PORT="27016"
-INTERVAL=32 # Check every 30 seconds
+INTERVAL=40 # Check every 30 seconds
 
 # Clear any wreckfest stuff?
 
@@ -52,6 +52,7 @@ do
       kill -TERM -$JOB_PID #this also works
       #set job_pid to none?
       wait
+      sleep 5
     else
       echo "Variable 'JOB_PID' is unset"
     fi
