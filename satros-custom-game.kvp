@@ -29,10 +29,10 @@ Meta.ConfigManifest=satros-custom-gameconfig.json
 Meta.MinAMPVersion=2.6.0.0
 Meta.ConfigRoot=satros-custom-game.kvp
 Meta.Description=Custom game server
-Meta.DisplayName={{GameDisplayName}}
+Meta.DisplayName=Custom Game
 Meta.EndpointURIFormat=
 Meta.OS=2
 Meta.URL=https://github.com/SatrosDev/AMPTemplates
 Meta.AppConfigId=4238e16e-15b5-4206-b218-95db4eaa87d2
-Meta.DisplayImageSource=steam:{{GameSteamID}}
+Meta.DisplayImageSource=steam:1007
 
