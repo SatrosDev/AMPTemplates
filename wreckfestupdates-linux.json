@@ -56,7 +56,7 @@
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/SatrosDev/AMPTemplates/refs/heads/main/wreckfest-launcher.sh",
         "UpdateSourceArgs": "wreckfest-launcher.sh",
-        "UpdateSourceTarget": "{{$FullInstanceDir}}",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": true,
         "SkipOnFailure": false
     },
