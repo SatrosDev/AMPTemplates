@@ -65,7 +65,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"chmod +x satros-wreckfest-launcher.sh\"",
+        "UpdateSourceArgs": "-c \"chmod +x {{$FullBaseDir}}satros-wreckfest-launcher.sh\"",
         "SkipOnFailure": false
     }
 ]
