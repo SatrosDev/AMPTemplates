@@ -1,0 +1,58 @@
+[
+    {
+        "DisplayName": "Game Display Name",
+        "Category": "Custom Game:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "The name of this game",
+        "Keywords": "",
+        "FieldName": "GameDisplayName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameDisplayName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Custom Game",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Steam ID",
+        "Category": "Custom Game:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Steam ID of game",
+        "Keywords": "",
+        "FieldName": "GameSteamID",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSteamID",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "1007",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Executable",
+        "Category": "Custom Game:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Executable name",
+        "Keywords": "",
+        "FieldName": "GameCommandExecutable",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameCommandExecutable",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "custom-game",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Command Args",
+        "Category": "Custom Game:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Executable name",
+        "Keywords": "",
+        "FieldName": "GameCommandLine",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameCommandLine",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "?start&game=CustomGame",
+        "EnumValues": {}
+    }
+]
