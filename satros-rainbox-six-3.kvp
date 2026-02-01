@@ -4,8 +4,7 @@ App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.RootDir=./rs3-server/
 App.BaseDirectory=./rs3-server/19830/
-App.WorkingDir=19830/System/
-
+App.WorkingDir=19830/System
 App.DisplayName=Rainbow Six: 3
 App.LinuxCommandLineArgs=-a wine "./System/UCC.exe"
 App.ExecutableLinux=/usr/bin/xvfb-run
