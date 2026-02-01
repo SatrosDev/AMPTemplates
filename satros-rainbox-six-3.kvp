@@ -1,5 +1,5 @@
 App.AdminMethod=STDIO
-App.Ports=@IncludeJson[satros-rainbow-six-3-ports.json]
+App.Ports=@IncludeJson[satros-rainbow-six-3-gameports.json]
 App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.RootDir=./gameserver/
