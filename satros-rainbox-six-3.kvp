@@ -8,7 +8,7 @@ App.WorkingDir=
 App.CommandLineArgs=help
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
-App.DisplayName=Custom Game
+App.DisplayName=Rainbow Six: 3
 App.ExecutableLinux=ucc-bin
 App.ExecutableWin=
 App.ExitMethod=OS_CLOSE
@@ -16,7 +16,7 @@ App.ExitString=stop
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.RapidStartup=false
-App.UpdateSources=@IncludeJson[satros-wreckfestupdates.json]
+App.UpdateSources=@IncludeJson[satros-rainbow-six-3-updates.json]
 App.SteamUpdateAnonymousLogin=False
 App.SteamForceLoginPrompt=True
 App.MaxUsers=32
