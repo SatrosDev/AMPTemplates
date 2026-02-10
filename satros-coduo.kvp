@@ -5,7 +5,7 @@ App.ApplicationReadyMode=Immediate
 App.RootDir=./coduoserver/
 App.BaseDirectory=./coduoserver/
 App.WorkingDir=
-App.CommandLineArgs=+set sv_punkbuster 0 +set fs_basepath {{$FullBaseDir}} +set dedicated 2 +set net_ip {{$ApplicationIPBinding}} +set net_port {{$GamePort}} +set sv_maxclients {{$MaxUsers}} +map {{MapName}} +exec server.cfg
+App.CommandLineArgs=+set sv_punkbuster 0 +set fs_basepath /AMP/coduoserver +set dedicated 2 +set net_ip {{$ApplicationIPBinding}} +set net_port {{$GamePort}} +set sv_maxclients {{$MaxUsers}} +map {{MapName}} +exec server.cfg
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
 App.DisplayName=Call of Duty: United Offensive
