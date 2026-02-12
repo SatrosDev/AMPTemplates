@@ -3,12 +3,12 @@ App.Ports=@IncludeJson[satros-rainbow-six-3-gameports.json]
 App.PrimaryApplicationPortRef=GamePort
 App.ApplicationReadyMode=Immediate
 App.RootDir=./rs3-server/
-App.BaseDirectory=./rs3-server/19830/
-App.WorkingDir=19830/system
+App.BaseDirectory=./rs3-server/
+App.WorkingDir=system
 App.DisplayName=Rainbow Six: 3
 App.LinuxCommandLineArgs="./UCC.exe"
 App.ExecutableLinux=/usr/bin/wine
-App.ExecutableWin=19830\system\UCC.exe
+App.ExecutableWin=system\UCC.exe
 App.CommandLineArgs=server {{GameCommandLine}}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
