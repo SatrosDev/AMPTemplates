@@ -6,7 +6,7 @@ App.RootDir=./rs3-server/
 App.BaseDirectory=./rs3-server/
 App.WorkingDir=system
 App.DisplayName=Rainbow Six: 3
-App.LinuxCommandLineArgs="./UCC.exe"
+App.LinuxCommandLineArgs={{GameCommandExecutable}}
 App.ExecutableLinux=/usr/bin/wine
 App.ExecutableWin=system\UCC.exe
 App.CommandLineArgs=server {{GameCommandLine}}
@@ -40,5 +40,5 @@ Meta.OS=2
 Meta.URL=https://store.steampowered.com/app/19830/Tom_Clancys_Rainbow_Six_3_Gold/
 Meta.AppConfigId=e6b6c5e7-a656-47aa-8add-80871fda849f
 Meta.DisplayImageSource=steam:19830
-App.MonitorChildProcessName=^.*UCC\.exe.*$
+App.MonitorChildProcessName=^.*UCC\.exe.*Airport.*$
 
