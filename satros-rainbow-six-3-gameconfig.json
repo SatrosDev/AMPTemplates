@@ -36,7 +36,7 @@
         "FieldName": "$MaxUsers",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "players",
+        "ParamFieldName": "MaxPlayers",
         "IncludeInCommandLine": false,
         "DefaultValue": "16",
         "Suffix": "players",
@@ -52,7 +52,7 @@
         "FieldName": "GamePassword",
         "InputType": "password",
         "IsFlagArgument": false,
-        "ParamFieldName": "password",
+        "ParamFieldName": "GamePassword",
         "IncludeInCommandLine": false,
         "DefaultValue": "",
         "EnumValues": {}

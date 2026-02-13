@@ -37,8 +37,8 @@ App.CommandLineArgs={{$PlatformArgs}} server {{MapName}}?{{$FormattedArgs}} log=
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"19830","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win32","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
+App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
-App.CommandLineParameterDelimiter= 
 App.ExitMethod=OS_CLOSE
 App.ExitMethodWindows=None
 App.ExitTimeout=30
@@ -96,7 +96,7 @@ Console.AppReadyRegex=^Game engine initialized$
 Console.ThrowawayMessageRegex=^((WARNING|ERROR): Shader.+|Could not find Wine Gecko.*)$
 Console.UserChatRegex=^ChatLog: (?<username>.+?) (SAY): (?<message>.+)$
 Console.UserJoinRegex=^.+got player TcpipConnection(?<username>.+?)$
-Console.UserLeaveRegex=^Close TcpipConnection(?<username>.+?) .+$
+Console.UserLeaveRegex=^.+Close TcpipConnection(?<username>.+?) .+$
 Console.UpdateAvailableRegex=
 Console.PreConnectRegex=
 Console.ConnectIPRegex=
