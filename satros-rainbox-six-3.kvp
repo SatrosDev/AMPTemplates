@@ -33,7 +33,7 @@ App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=system
 App.LinuxCommandLineArgs=-a wine "./UCC.exe"
 App.WindowsCommandLineArgs=
-App.CommandLineArgs={{$PlatformArgs}} server {{MapName}}?{{$FormattedArgs}} ini={{ServerConfigFile}} log=server.log port={{$GamePort}} {{CustomParameters}}
+App.CommandLineArgs={{$PlatformArgs}} server {{MapName}}?{{$FormattedArgs}} log=server.log port={{$GamePort}} {{CustomParameters}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"19830","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win32","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
