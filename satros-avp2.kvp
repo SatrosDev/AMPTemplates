@@ -56,7 +56,6 @@ App.Ports=@IncludeJson[satros-avp2-gameports.json]
 App.AdminPortRef=0
 App.PrimaryApplicationPortRef=GamePort
 App.UniversalSleepApplicationUDPPortRef=GamePort
-App.UniversalSleepSteamQueryPortRef=QueryPort
 App.MaxUsers=16
 App.UseRandomAdminPassword=False
 App.PersistRandomPassword=False
