@@ -5,7 +5,8 @@
         "UpdateSource":"SteamCMD",
         "UpdateSourceData":"336400",
         "UpdateSourceArgs":"321360",
-        "ForceDownloadPlatform":"Windows"
+        "ForceDownloadPlatform":"Windows",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Initialise Wine",
