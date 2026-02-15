@@ -35,7 +35,7 @@ App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=336400
 App.LinuxCommandLineArgs=-a wine "./Binaries/Win64/PrimalCarnageServer.exe"
 App.WindowsCommandLineArgs=
-App.CommandLineArgs={{$PlatformArgs}} {{ServerMap}}?game={{GameMode}}?bIsDedicated=true?{{$FormattedArgs}}{{CustomServerArgs}} Log=server.log Port={{$GamePort}} PeerPort={{$PeerPort}} QueryPort={{$QueryPort}} MultiHome={{$ApplicationIPBinding}} -seekfreeloadingserver -stdout -FullStdOutLogOutput
+App.CommandLineArgs={{$PlatformArgs}} {{ServerMap}}?game={{GameMode}}?bIsDedicated=true?{{$FormattedArgs}}{{CustomServerArgs}} Log=server.log Port={{$GamePort}} PeerPort={{$PeerPort}} QueryPort={{$QueryPort}} MultiHome={{$ApplicationIPBinding}} -seekfreeloadingserver -FORCELOGFLUSH
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"321360","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
