@@ -86,13 +86,13 @@ App.MonitorChildProcessName=^.*PrimalCarnageServer\.exe.*Port={{$GamePort}}.*$
 App.MonitorDirectChildOnly=False
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
-App.ApplicationReadyMode=Immediate
+App.ApplicationReadyMode=RegexMatch
 Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=^((WARNING|ERROR): Shader.+|Could not find Wine Gecko.*)$
-Console.AppReadyRegex=^$
-Console.UserJoinRegex=^$
-Console.UserLeaveRegex=^$
+Console.AppReadyRegex=^.+Initializing Game Engine Completed$
+Console.UserJoinRegex=^.+NetComeGo: Open .* (?<username>[0-9\.]+?)$
+Console.UserLeaveRegex=^.+NetComeGo: Close .+_[0-9]+ (?<username>[0-9\.]+?)\:.+$
 Console.UserChatRegex=^$
 Console.UpdateAvailableRegex=^\[\d\d:\d\d:\d\d\] \[INFO\] A new server update is available! v[\d\.]+.$
 Console.MetricsRegex=
