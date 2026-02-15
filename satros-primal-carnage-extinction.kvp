@@ -35,7 +35,7 @@ App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=336400
 App.LinuxCommandLineArgs=-a wine "./Binaries/Win64/PrimalCarnageServer.exe"
 App.WindowsCommandLineArgs=
-App.CommandLineArgs={{$PlatformArgs}} {{ServerMap}}?game={{GameMode}}?bIsDedicated=true?{{$FormattedArgs}}{{CustomServerArgs}} Port={{$GamePort}} PeerPort={{$PeerPort}} QueryPort={{$QueryPort}} MultiHome={{$ApplicationIPBinding}} -seekfreeloadingserver -stdout -FullStdOutLogOutput
+App.CommandLineArgs={{$PlatformArgs}} {{ServerMap}}?game={{GameMode}}?bIsDedicated=true?{{$FormattedArgs}}{{CustomServerArgs}} Log=server.log Port={{$GamePort}} PeerPort={{$PeerPort}} QueryPort={{$QueryPort}} MultiHome={{$ApplicationIPBinding}} -seekfreeloadingserver -stdout -FullStdOutLogOutput
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"321360","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
@@ -62,7 +62,7 @@ App.MaxUsers=32
 App.UseRandomAdminPassword=True
 App.PersistRandomPassword=True
 App.RemoteAdminPassword=
-App.AdminMethod=STDIO
+App.AdminMethod=TailLogFile
 App.AdminLoginTransform=None
 App.LoginTransformPrefix=
 App.RCONConnectDelaySeconds=5
@@ -70,6 +70,7 @@ App.RCONConnectRetrySeconds=5
 App.RCONHeartbeatMinutes=0
 App.RCONHeartbeatCommand=ping
 App.TelnetLoginFormat={0}
+App.TailLogFilePath={{$FullBaseDir}}/PrimalCarnageGame/Logs/server.log
 App.UpdateSources=@IncludeJson[satros-primal-carnage-extinctionupdates.json]
 App.PreStartStages=[]
 App.ForceUpdate=False
@@ -81,7 +82,7 @@ App.RapidStartup=False
 App.SmartExcludeExemptions=["*.cfg","*.conf","*.config","*.ini","*.json","*.xml","*.properties","*.kvp","*.yml","*.yaml","*.toml","*.lua"]
 App.SmartExcludeSupported=False
 App.DumpFullChildProcessTree=False
-App.MonitorChildProcessName=^.*PrimalCarnageServer\.exe.*port={{$GamePort}}.*$
+App.MonitorChildProcessName=^.*PrimalCarnageServer\.exe.*Port={{$GamePort}}.*$
 App.MonitorDirectChildOnly=False
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
