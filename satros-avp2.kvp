@@ -5,7 +5,7 @@ Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
 Meta.Author=Satros
 Meta.URL=https://https://avpunknown.com/
-Meta.DisplayImageSource=https://gepig.com/game_cover_460w/701.jpg
+Meta.DisplayImageSource=url:https://www.avpunknown.com/img/avp2logo.png
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=satros-avp2-gameconfig.json
 Meta.ConfigRoot=satros-avp2.kvp
@@ -36,7 +36,7 @@ App.WindowsCommandLineArgs=
 App.CommandLineArgs=-a wine "./AVP2Serv.exe"
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
-App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"3730","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win32","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win32","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
 App.ExitMethod=CtrlC
