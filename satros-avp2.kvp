@@ -1,5 +1,5 @@
-Meta.DisplayName=Alien vs Predator 2
-Meta.Description=Alien vs Predator 2 game server
+Meta.DisplayName=Aliens Versus Predator 2
+Meta.Description=Aliens Versus Predator 2 game server
 Meta.OS=Windows, Linux
 Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
@@ -25,7 +25,7 @@ Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
 Meta.AppConfigId=f408996d-c746-42b0-80e2-aeb1d09c65d7
 Meta.ImportableExtensions=[]
-App.DisplayName=Alien vs Predator 2
+App.DisplayName=Aliens Versus Predator 2
 App.RootDir=./avp2server/
 App.BaseDirectory=./avp2server/
 App.ExecutableWin=AVP2Serv.exe
