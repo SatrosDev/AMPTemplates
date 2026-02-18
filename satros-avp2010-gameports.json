@@ -1,0 +1,23 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": 3658,
+        "Ref": "GamePort",
+        "Name": "Game Port",
+        "Description": "Port for main game traffic"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 27010,
+        "Ref": "LobbyPort",
+        "Name": "Lobby Port",
+        "Description": "Port for lobby"
+    },    
+    {
+        "Protocol": "UDP",
+        "Port": 27016,
+        "Ref": "QueryPort",
+        "Name": "Query Port",
+        "Description": "Query Port for server query"
+    }
+]
