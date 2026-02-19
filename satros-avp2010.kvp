@@ -33,7 +33,7 @@ App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=34120
 App.LinuxCommandLineArgs=-a wine "./AvP_CLI.exe"
 App.WindowsCommandLineArgs=
-App.CommandLineArgs={{$PlatformArgs}} -logdir "logfiles" -IP=192.168.0.1 -gameport={{GamePort}} -lobbyport={{LobbyPort}} -updateport={{QueryPort}} -exec default.cfg
+App.CommandLineArgs={{$PlatformArgs}} -logdir "logfiles" -IP={{$ApplicationIPBinding}} -gameport={{$GamePort}} -lobbyport={{LobbyPort}} -updateport={{$QueryPort}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"10680","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
