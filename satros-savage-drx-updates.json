@@ -8,11 +8,19 @@
         "SkipOnFailure": false
     },
     {
+        "UpdateStageName": "Create Maps Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "./savagedrx/savage-drx-maps",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    },
+    {
         "UpdateStageName": "Maps Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd savagedrx && rm -rf srv >/dev/null 2>&1; DownloadUrl=\\\"https://github.com/savage-drx/savage-drx-maps.git\\\"; [ ! -d .git ] && { echo \\\"Installing maps\\\" && git clone \\\"$DownloadUrl\\\" srv >/dev/null && \\cp -r srv/. ./ >/dev/null 2>&1 && rm -rf srv >/dev/null 2>&1 && echo \\\"Maps installed\\\"; } || { echo \\\"Updating the server\\\" && git fetch --all >/dev/null && git pull >/dev/null && echo \\\"Maps updated\\\"; }\"",
+        "UpdateSourceArgs": "-c \"cd savagedrx/savage-drx-maps/ && rm -rf srv >/dev/null 2>&1; DownloadUrl=\\\"https://github.com/savage-drx/savage-drx-maps.git\\\"; [ ! -d .git ] && { echo \\\"Installing maps\\\" && git clone \\\"$DownloadUrl\\\" srv >/dev/null && \\cp -r srv/. ./ >/dev/null 2>&1 && rm -rf srv >/dev/null 2>&1 && echo \\\"Maps installed\\\"; } || { echo \\\"Updating the server\\\" && git fetch --all >/dev/null && git pull >/dev/null && echo \\\"Maps updated\\\"; }\"",
         "SkipOnFailure": false
     }
 ]
