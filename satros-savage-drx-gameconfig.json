@@ -38,7 +38,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "sv_maxclients",
         "IncludeInCommandLine": false,
-        "DefaultValue": "16",
+        "DefaultValue": "72",
         "Suffix": "players",
         "EnumValues": {},
         "MinValue": "1"
