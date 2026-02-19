@@ -31,9 +31,9 @@ App.BaseDirectory=./avp2010server/34120/
 App.ExecutableWin=
 App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=34120
-App.LinuxCommandLineArgs=-a wine "./AvP_CLI.exe"
+App.LinuxCommandLineArgs=-a wine "./AVP_CLI.exe"
 App.WindowsCommandLineArgs=
-App.CommandLineArgs={{$PlatformArgs}} -logdir "logfiles" -IP={{$ApplicationIPBinding}} -gameport=3658
+App.CommandLineArgs={{$PlatformArgs}} -logdir "logfiles" -IP={{$ApplicationIPBinding}} -gameport={{$GamePort}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"10680","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
@@ -85,7 +85,7 @@ App.RapidStartup=False
 App.SmartExcludeExemptions=["*.cfg","*.conf","*.config","*.ini","*.json","*.xml","*.properties","*.kvp","*.yml","*.yaml","*.toml","*.lua"]
 App.SmartExcludeSupported=False
 App.DumpFullChildProcessTree=False
-App.MonitorChildProcessName=^.*AvP_CLI\.exe*$
+App.MonitorChildProcessName=^.*AVP_CLI\.exe.+gameport={{$GamePort}}$
 App.MonitorDirectChildOnly=False
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
