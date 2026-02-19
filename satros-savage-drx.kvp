@@ -25,7 +25,6 @@ Meta.BreakingReleaseNotes=
 Meta.AppConfigId=2f78644e-dd84-489b-93e7-79d1c5ee5d9d
 Meta.ImportableExtensions=[]
 App.DisplayName=Savage DRX
-
 App.RootDir=./savagedrx/
 App.BaseDirectory=./savagedrx/savage-drx-server-public/
 App.ExecutableWin=
