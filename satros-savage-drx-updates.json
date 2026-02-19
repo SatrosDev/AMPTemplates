@@ -20,15 +20,31 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd savagedrx/savage-drx-maps/ && rm -rf srv >/dev/null 2>&1; DownloadUrl=\\\"https://github.com/savage-drx/savage-drx-maps.git\\\"; [ ! -d .git ] && { echo \\\"Installing maps\\\" && git clone \\\"$DownloadUrl\\\" srv >/dev/null && \\cp -r srv/. ./ >/dev/null 2>&1 && rm -rf srv >/dev/null 2>&1 && echo \\\"Maps installed\\\"; } || { echo \\\"Updating the server\\\" && git fetch --all >/dev/null && git pull >/dev/null && echo \\\"Maps updated\\\"; }\"",
+        "UpdateSourceArgs": "-c \"cd savagedrx/savage-drx-maps/ && rm -rf maps >/dev/null 2>&1; DownloadUrl=\\\"https://github.com/savage-drx/savage-drx-maps.git\\\"; [ ! -d .git ] && { echo \\\"Installing maps\\\" && git clone \\\"$DownloadUrl\\\" srv >/dev/null && \\cp -r srv/. ./ >/dev/null 2>&1 && rm -rf maps >/dev/null 2>&1 && echo \\\"Maps installed\\\"; } || { echo \\\"Updating the server\\\" && git fetch --all >/dev/null && git pull >/dev/null && echo \\\"Maps updated\\\"; }\"",
         "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Copy silverback.bin",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"cp -f savagedrx/savage-drx-server-public/bin/silverback.bin savagedrx/savage-drx-server-public/silverback.bin\"",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Copy game64.so",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"cp -f savagedrx/savage-drx-server-public/bin/game64.so savagedrx/savage-drx-server-public/game/game64.so\"",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Script Permissions",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"chmod +x {{$FullBaseDir}}start_server.sh\"",
+        "UpdateSourceArgs": "-c \"chmod +x {{$FullBaseDir}}silverback.bin\"",
         "SkipOnFailure": false
     }
 ]
