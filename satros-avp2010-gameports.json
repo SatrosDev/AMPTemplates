@@ -8,7 +8,7 @@
     },
     {
         "Protocol": "TCP",
-        "Port": 27010,
+        "Port": 27015,
         "Ref": "LobbyPort",
         "Name": "Lobby Port",
         "Description": "Port for lobby"
