@@ -1,0 +1,72 @@
+[
+    {
+        "DisplayName": "Game Type",
+        "Category": "Rainbow Six 3:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the game mode to load",
+        "Keywords": "",
+        "FieldName": "game",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "game",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "R6Game.R6TeamBomb",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map Name",
+        "Category": "Rainbow Six 3:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the name of the map to load",
+        "Keywords": "",
+        "FieldName": "MapName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MapName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Airport",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Player Limit",
+        "Category": "Rainbow Six 3:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Maximum number of players that may connect to the server",
+        "Keywords": "players,limit",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "16",
+        "Suffix": "players",
+        "EnumValues": {},
+        "MinValue": "1"
+    },
+    {
+        "DisplayName": "Server Password",
+        "Category": "Rainbow Six 3:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Password for players and spectators to connect to the server",
+        "Keywords": "password",
+        "FieldName": "GamePassword",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GamePassword",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Additional Command Line Parameters",
+        "Category": "Rainbow Six 3:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Specifies additional command line parameters(anything that begins with a -) that are not otherwise set by AMP. Use with care",
+        "Keywords": "custom,server,arguments,variables,parameters",
+        "FieldName": "CustomParameters",
+        "InputType": "text",
+        "ParamFieldName": "CustomParameters",
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]
