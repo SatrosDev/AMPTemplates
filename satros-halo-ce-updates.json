@@ -12,7 +12,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"ln -s \\\"{{$FullRootDir}}.wine/drive_c/users/dev/Documents/My Games/Halo CE/\\\" {{$FullRootDir}}profile\"",
+        "UpdateSourceArgs": "-c \"ln -sf \\\"{{$FullBaseDir}}.wine/drive_c/users/amp/Documents/My Games/Halo CE/\\\" {{$FullBaseDir}}profile\"",
         "SkipOnFailure": false
     }
 ]
