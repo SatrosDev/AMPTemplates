@@ -5,6 +5,6 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "1424230",
         "UpdateSourceArgs": "1424230",
-        "SkipOnFailure": false
+        "SkipOnFailure": true
     }
 ]
