@@ -20,13 +20,13 @@ Meta.AppConfigId=3c3cedd3-f129-434a-b4a0-9d0de3785f59
 App.DisplayName=Holdfast: Nations At War
 App.RootDir=./holdfast/
 App.BaseDirectory=./holdfast/1424230/
-App.ExecutableWin=1424230\Server-Win64-Shipping.exe
-App.ExecutableLinux=1424230/Server-Win64-Shipping.exe
+App.ExecutableWin=1424230\Holdfast_NaW.exe
+App.ExecutableLinux=1424230/"Holdfast NaW"
 App.SteamWorkshopDownloadLocation=
-App.WorkingDir=629800
+App.WorkingDir=1424230
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs={{$PlatformArgs}} {{map}} {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} -startserver --serverheadless -batchmode -nographics -screen-width 640 -screen-height 480 -screen-quality "Fastest" -framerate 120 -serverConfigFilePath "serverconfig_default.txt" -logFile "logs_output/outputlog_default.txt" -logArchivesDirectory "logs_archive/" -playersLogFilePath "logs_playerlogin/playerlogin_default.txt" -adminCommandsLogFilePath "logs_adminactions/adminactions_default.txt" -chatLogFilePath "logs_chat/chatlog_default.txt" -scoreboardLogFilePath "logs_score/scorelog_default.txt" -vacLogFilePath "logs_vac/vaclog_default.txt" -bannedPlayersFilePath "bannedplayers.txt" -mutedChatPlayersFilePath "muteplayerschat.txt" -mutedVoipPlayersFilePath "muteplayersvoip.txt" -micSpammersPlayersFilePath "micspammers.txt"
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:./linux64:%LD_LIBRARY_PATH%","SteamAppId":"589290"}
 App.CommandLineParameterFormat=-{0}={1}
